@@ -37,7 +37,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 600px;
+    height: 1000px;
     line-height: 50px;
     color: white;
     justify-content: center;
@@ -90,7 +90,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 600px;
+    height: 1000px;
     width: 120px;
     line-height: 50px;
     color: white;
@@ -108,7 +108,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 600px;
+    height: 1000px;
     width: 120px;
     line-height: 50px;
     color: white;
@@ -208,7 +208,7 @@ a:active {
 }
 
 .link { 
-	color: aquamarine; 
+	color: #E0115F; /* Gives the link a nice ruby colour */
 	width: 120px;
 } 
-.link:hover { color: #27b366; }
+.link:hover { color: aquamarine; }
