@@ -50,6 +50,14 @@ header {
     background-size: cover;
 }
 
+.card {
+    max-width: 10000px;
+    margin: auto;
+    font-family: arial;
+    box-sizing:border-box;
+    border-radius:4px;
+}
+
 .top {
     display: flex;
     position: fixed;
