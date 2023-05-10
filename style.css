@@ -1,11 +1,12 @@
 body {
     margin: 0;
-    margin-top: 50px;
+    margin-top: 0px;
     font-family: sans-serif;
+    background-color: white;
 }
 
 nav {
-    background-color: green;
+    background-color: blue;
     width:100%;
     position:fixed;
 }
@@ -54,15 +55,33 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 607px;
+    height: 120px;
     line-height: 50px;
     color: white;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-left: 120px;
+	margin-top: 0px;
     border: 1px black;
     border-style: solid;
+}
+
+.quickborder {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    width: 120px;
+    border: 1px black;
+    border-style: solid;
+    background-image: url("images/flower.jfif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
 }
 
 .left {
@@ -72,6 +91,7 @@ header {
     left: 0;
     right: 0;
     height: 600px;
+    width: 120px;
     line-height: 50px;
     color: white;
     justify-content: left;
@@ -80,6 +100,22 @@ header {
     margin-top: 120px;
     border: 1px black;
     border-style: solid;
+}
+
+.left-noborder {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 600px;
+    width: 120px;
+    line-height: 50px;
+    color: white;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin-top: 120px;
 }
 
 header * {
@@ -101,6 +137,8 @@ main {
 main h1, h2 {
     font-size:3em;
     font: bold;
+	color: aqua;
+	height: 120px;
 }
 
 main p {
@@ -169,5 +207,8 @@ a:active {
     transform: translateY(-10px);
 }
 
-.link { color: #FFC0CB; } 
+.link { 
+	color: aquamarine; 
+	width: 120px;
+} 
 .link:hover { color: #27b366; }
